@@ -7,7 +7,7 @@ npm install unformat-numbers
 
 ## Usage
 ```js
-import unformatNumber from "unformat-numbers"
+const unformatNumber = require("unformat-numbers")
 
 console.log(unformatNumber("1,000,123.97"))
 console.log(unformatNumber("1.000.123,97"))

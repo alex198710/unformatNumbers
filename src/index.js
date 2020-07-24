@@ -16,4 +16,4 @@ function index(number) {
   return parseFloat(number)
 }
 
-export default index;
+module.exports = index;
